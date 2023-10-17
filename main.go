@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	var i int = 10
+	array3 := [3]int{1, 2, 3}
 
-	fmt.Println(i)
+	fmt.Println(array3)
 }
