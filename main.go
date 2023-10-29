@@ -2,9 +2,16 @@ package main
 
 import "fmt"
 
+const Pi = 3.14
+
+const (
+	A = iota
+	B
+	C
+)
+
 func main() {
 
-	array3 := [3]int{1, 2, 3}
+	fmt.Println(A, B, C)
 
-	fmt.Println(array3)
 }
