@@ -2,16 +2,14 @@ package main
 
 import "fmt"
 
-const Pi = 3.14
+func Plus(x int, y int) {
 
-const (
-	A = iota
-	B
-	C
-)
+	fmt.Println(x + y)
+
+}
 
 func main() {
 
-	fmt.Println(A, B, C)
+	Plus(100, 50)
 
 }
